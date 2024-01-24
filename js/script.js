@@ -250,11 +250,11 @@ function gameLogic() {
 		(btn7 == 'X' || btn7 == 'O') && (btn8 == 'X' ||
 		btn8 == 'O') && (btn9 == 'X' || btn9 == 'O')) {
 			document.getElementById('result')
-				.innerHTML = "Khichdi Pak Gyi";
+				.innerHTML = "No winner";
 
 		document.getElementById('popup-result').style.display = "flex";
 		document.getElementById('resultpop')
-			.innerHTML = "Khichdi Pak Gyi";
+			.innerHTML = "No winner";
 	}
 	else {
 
